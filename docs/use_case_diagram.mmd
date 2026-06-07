@@ -1,0 +1,34 @@
+%%{init: {'theme': 'base'}}%%
+flowchart LR
+  User([User])
+  Login([Login])
+  Register([Register])
+  Logout([Logout])
+  ViewDocs([View Documents])
+  UploadDoc([Upload Document])
+  EditDoc([Edit Document])
+  DeleteDoc([Delete Document])
+  MoveDoc([Move Document])
+  CreateFolder([Create Folder])
+  RenameFolder([Rename Folder])
+  DeleteFolder([Delete Folder])
+  SearchDocs([Search Documents])
+  FilterDocs([Filter Documents])
+  ImportFile([Import File from Drive])
+  ImportFolder([Import Folder from Drive])
+
+  User --> Login
+  User --> Register
+  User --> Logout
+  User --> ViewDocs
+  User --> UploadDoc
+  User --> EditDoc
+  User --> DeleteDoc
+  User --> MoveDoc
+  User --> CreateFolder
+  User --> RenameFolder
+  User --> DeleteFolder
+  User --> SearchDocs
+  User --> FilterDocs
+  User --> ImportFile
+  User --> ImportFolder
